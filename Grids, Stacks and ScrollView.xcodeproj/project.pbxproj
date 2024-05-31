@@ -11,6 +11,25 @@
 		854862B82C090BB5009CFC0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854862B72C090BB5009CFC0A /* ContentView.swift */; };
 		854862BA2C090BB7009CFC0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854862B92C090BB7009CFC0A /* Assets.xcassets */; };
 		854862BD2C090BB7009CFC0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854862BC2C090BB7009CFC0A /* Preview Assets.xcassets */; };
+		854862C42C090C7A009CFC0A /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854862C32C090C7A009CFC0A /* CharacterView.swift */; };
+		854862C72C090C98009CFC0A /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854862C62C090C98009CFC0A /* CharacterViewModel.swift */; };
+		854862CC2C090CC8009CFC0A /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854862CB2C090CC8009CFC0A /* CharacterModel.swift */; };
+		854862CF2C090CD4009CFC0A /* PageCountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854862CE2C090CD4009CFC0A /* PageCountModel.swift */; };
+		854862D22C090F05009CFC0A /* SimpleNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = 854862D12C090F05009CFC0A /* SimpleNetworking */; };
+		854862D52C091C3A009CFC0A /* CharacterDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854862D42C091C3A009CFC0A /* CharacterDetailsView.swift */; };
+		854862DA2C09217A009CFC0A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854862D92C09217A009CFC0A /* Color.swift */; };
+		854862DD2C092294009CFC0A /* get_schwifty.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 854862DC2C092294009CFC0A /* get_schwifty.ttf */; };
+		854862E12C0A0780009CFC0A /* EpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854862E02C0A0780009CFC0A /* EpisodeView.swift */; };
+		854862E32C0A0862009CFC0A /* EpisodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854862E22C0A0862009CFC0A /* EpisodeModel.swift */; };
+		854862E52C0A08F6009CFC0A /* EpisodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854862E42C0A08F6009CFC0A /* EpisodeViewModel.swift */; };
+		854862E92C0A17B7009CFC0A /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854862E82C0A17B7009CFC0A /* SearchViewModel.swift */; };
+		854862EC2C0A17C4009CFC0A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854862EB2C0A17C4009CFC0A /* SearchView.swift */; };
+		854862EE2C0A241F009CFC0A /* SearchCharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854862ED2C0A241F009CFC0A /* SearchCharacterModel.swift */; };
+		854862F02C0A249F009CFC0A /* SearchEpisodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854862EF2C0A249F009CFC0A /* SearchEpisodeModel.swift */; };
+		854862F22C0A2B17009CFC0A /* CharacterDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854862F12C0A2B17009CFC0A /* CharacterDetailsViewModel.swift */; };
+		854862F42C0A3972009CFC0A /* EpisodeInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854862F32C0A3972009CFC0A /* EpisodeInfoModel.swift */; };
+		854862F62C0A5E51009CFC0A /* FiraGO-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 854862F52C0A5E51009CFC0A /* FiraGO-Regular.ttf */; };
+		854862F82C0A6012009CFC0A /* FiraGO-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 854862F72C0A6012009CFC0A /* FiraGO-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +38,25 @@
 		854862B72C090BB5009CFC0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		854862B92C090BB7009CFC0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		854862BC2C090BB7009CFC0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		854862C32C090C7A009CFC0A /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		854862C62C090C98009CFC0A /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
+		854862CB2C090CC8009CFC0A /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		854862CE2C090CD4009CFC0A /* PageCountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCountModel.swift; sourceTree = "<group>"; };
+		854862D42C091C3A009CFC0A /* CharacterDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsView.swift; sourceTree = "<group>"; };
+		854862D92C09217A009CFC0A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		854862DC2C092294009CFC0A /* get_schwifty.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = get_schwifty.ttf; sourceTree = "<group>"; };
+		854862DE2C0922E1009CFC0A /* Grids--Stacks-and-ScrollView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Grids--Stacks-and-ScrollView-Info.plist"; sourceTree = SOURCE_ROOT; };
+		854862E02C0A0780009CFC0A /* EpisodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeView.swift; sourceTree = "<group>"; };
+		854862E22C0A0862009CFC0A /* EpisodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeModel.swift; sourceTree = "<group>"; };
+		854862E42C0A08F6009CFC0A /* EpisodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeViewModel.swift; sourceTree = "<group>"; };
+		854862E82C0A17B7009CFC0A /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		854862EB2C0A17C4009CFC0A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		854862ED2C0A241F009CFC0A /* SearchCharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCharacterModel.swift; sourceTree = "<group>"; };
+		854862EF2C0A249F009CFC0A /* SearchEpisodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEpisodeModel.swift; sourceTree = "<group>"; };
+		854862F12C0A2B17009CFC0A /* CharacterDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsViewModel.swift; sourceTree = "<group>"; };
+		854862F32C0A3972009CFC0A /* EpisodeInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeInfoModel.swift; sourceTree = "<group>"; };
+		854862F52C0A5E51009CFC0A /* FiraGO-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraGO-Regular.ttf"; sourceTree = "<group>"; };
+		854862F72C0A6012009CFC0A /* FiraGO-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraGO-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				854862D22C090F05009CFC0A /* SimpleNetworking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				854862B42C090BB5009CFC0A /* Grids, Stacks and ScrollView */,
+				854862DE2C0922E1009CFC0A /* Grids--Stacks-and-ScrollView-Info.plist */,
 				854862B32C090BB5009CFC0A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,9 +91,12 @@
 		854862B42C090BB5009CFC0A /* Grids, Stacks and ScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				854862B52C090BB5009CFC0A /* Grids__Stacks_and_ScrollViewApp.swift */,
 				854862B72C090BB5009CFC0A /* ContentView.swift */,
-				854862B92C090BB7009CFC0A /* Assets.xcassets */,
+				854862DB2C09227E009CFC0A /* Assets */,
+				854862D82C092173009CFC0A /* Extensions */,
+				854862C82C090CA4009CFC0A /* App */,
+				854862CA2C090CB9009CFC0A /* Model */,
+				854862D72C091D5D009CFC0A /* Scenes */,
 				854862BB2C090BB7009CFC0A /* Preview Content */,
 			);
 			path = "Grids, Stacks and ScrollView";
@@ -65,6 +108,101 @@
 				854862BC2C090BB7009CFC0A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		854862C52C090C81009CFC0A /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				854862D62C091D40009CFC0A /* CharacterView */,
+				854862D32C091C2C009CFC0A /* CharacterDetails */,
+			);
+			path = Character;
+			sourceTree = "<group>";
+		};
+		854862C82C090CA4009CFC0A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				854862B52C090BB5009CFC0A /* Grids__Stacks_and_ScrollViewApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		854862CA2C090CB9009CFC0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				854862CB2C090CC8009CFC0A /* CharacterModel.swift */,
+				854862E22C0A0862009CFC0A /* EpisodeModel.swift */,
+				854862CE2C090CD4009CFC0A /* PageCountModel.swift */,
+				854862ED2C0A241F009CFC0A /* SearchCharacterModel.swift */,
+				854862EF2C0A249F009CFC0A /* SearchEpisodeModel.swift */,
+				854862F32C0A3972009CFC0A /* EpisodeInfoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		854862D32C091C2C009CFC0A /* CharacterDetails */ = {
+			isa = PBXGroup;
+			children = (
+				854862D42C091C3A009CFC0A /* CharacterDetailsView.swift */,
+				854862F12C0A2B17009CFC0A /* CharacterDetailsViewModel.swift */,
+			);
+			path = CharacterDetails;
+			sourceTree = "<group>";
+		};
+		854862D62C091D40009CFC0A /* CharacterView */ = {
+			isa = PBXGroup;
+			children = (
+				854862C32C090C7A009CFC0A /* CharacterView.swift */,
+				854862C62C090C98009CFC0A /* CharacterViewModel.swift */,
+			);
+			path = CharacterView;
+			sourceTree = "<group>";
+		};
+		854862D72C091D5D009CFC0A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				854862C52C090C81009CFC0A /* Character */,
+				854862E62C0A17A4009CFC0A /* Search */,
+				854862DF2C0A0748009CFC0A /* Episode */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		854862D82C092173009CFC0A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				854862D92C09217A009CFC0A /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		854862DB2C09227E009CFC0A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				854862DC2C092294009CFC0A /* get_schwifty.ttf */,
+				854862F52C0A5E51009CFC0A /* FiraGO-Regular.ttf */,
+				854862F72C0A6012009CFC0A /* FiraGO-Bold.ttf */,
+				854862B92C090BB7009CFC0A /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		854862DF2C0A0748009CFC0A /* Episode */ = {
+			isa = PBXGroup;
+			children = (
+				854862E02C0A0780009CFC0A /* EpisodeView.swift */,
+				854862E42C0A08F6009CFC0A /* EpisodeViewModel.swift */,
+			);
+			path = Episode;
+			sourceTree = "<group>";
+		};
+		854862E62C0A17A4009CFC0A /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				854862E82C0A17B7009CFC0A /* SearchViewModel.swift */,
+				854862EB2C0A17C4009CFC0A /* SearchView.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +221,9 @@
 			dependencies = (
 			);
 			name = "Grids, Stacks and ScrollView";
+			packageProductDependencies = (
+				854862D12C090F05009CFC0A /* SimpleNetworking */,
+			);
 			productName = "Grids, Stacks and ScrollView";
 			productReference = 854862B22C090BB5009CFC0A /* Grids, Stacks and ScrollView.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +252,9 @@
 				Base,
 			);
 			mainGroup = 854862A92C090BB5009CFC0A;
+			packageReferences = (
+				854862D02C090F05009CFC0A /* XCRemoteSwiftPackageReference "SimpleNetworking" */,
+			);
 			productRefGroup = 854862B32C090BB5009CFC0A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				854862BD2C090BB7009CFC0A /* Preview Assets.xcassets in Resources */,
+				854862F82C0A6012009CFC0A /* FiraGO-Bold.ttf in Resources */,
+				854862F62C0A5E51009CFC0A /* FiraGO-Regular.ttf in Resources */,
+				854862DD2C092294009CFC0A /* get_schwifty.ttf in Resources */,
 				854862BA2C090BB7009CFC0A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +284,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				854862C72C090C98009CFC0A /* CharacterViewModel.swift in Sources */,
+				854862F02C0A249F009CFC0A /* SearchEpisodeModel.swift in Sources */,
+				854862E12C0A0780009CFC0A /* EpisodeView.swift in Sources */,
+				854862CC2C090CC8009CFC0A /* CharacterModel.swift in Sources */,
+				854862EE2C0A241F009CFC0A /* SearchCharacterModel.swift in Sources */,
+				854862E52C0A08F6009CFC0A /* EpisodeViewModel.swift in Sources */,
+				854862C42C090C7A009CFC0A /* CharacterView.swift in Sources */,
+				854862D52C091C3A009CFC0A /* CharacterDetailsView.swift in Sources */,
+				854862E92C0A17B7009CFC0A /* SearchViewModel.swift in Sources */,
+				854862F22C0A2B17009CFC0A /* CharacterDetailsViewModel.swift in Sources */,
 				854862B82C090BB5009CFC0A /* ContentView.swift in Sources */,
+				854862EC2C0A17C4009CFC0A /* SearchView.swift in Sources */,
+				854862DA2C09217A009CFC0A /* Color.swift in Sources */,
+				854862CF2C090CD4009CFC0A /* PageCountModel.swift in Sources */,
 				854862B62C090BB5009CFC0A /* Grids__Stacks_and_ScrollViewApp.swift in Sources */,
+				854862E32C0A0862009CFC0A /* EpisodeModel.swift in Sources */,
+				854862F42C0A3972009CFC0A /* EpisodeInfoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +437,7 @@
 				DEVELOPMENT_TEAM = 9S26B8AV5C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Grids--Stacks-and-ScrollView-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +467,7 @@
 				DEVELOPMENT_TEAM = 9S26B8AV5C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Grids--Stacks-and-ScrollView-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +508,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		854862D02C090F05009CFC0A /* XCRemoteSwiftPackageReference "SimpleNetworking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GujMeister/SimpleNetworking";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		854862D12C090F05009CFC0A /* SimpleNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 854862D02C090F05009CFC0A /* XCRemoteSwiftPackageReference "SimpleNetworking" */;
+			productName = SimpleNetworking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 854862AA2C090BB5009CFC0A /* Project object */;
 }

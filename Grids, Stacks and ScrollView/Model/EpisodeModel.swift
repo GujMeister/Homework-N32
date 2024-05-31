@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct EpisodeInfo: Codable {
+struct EpisodeInfo: Decodable {
     let results: [EpisodeResult]
 }
 
-struct EpisodeResult: Codable, Identifiable {
+struct EpisodeResult: Decodable, Identifiable {
     var id: Int
     let name, episode: String
     let characters: [String]

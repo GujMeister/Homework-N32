@@ -71,7 +71,6 @@ struct CustomTabBar: View {
                 }
             }
         }
-        .shadow(radius: 1)
     }
 }
 

@@ -8,11 +8,11 @@
 import Foundation
 
 final class SearchEpisodeInfo {
-    struct EpisodeInfo: Codable {
+    struct EpisodeInfo: Decodable {
         let results: [EpisodeResult]
     }
     
-    struct EpisodeResult: Codable, Identifiable {
+    struct EpisodeResult: Decodable, Identifiable {
         var id: Int
         var name: String
         var episode: String

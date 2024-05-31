@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		854862B62C090BB5009CFC0A /* Grids__Stacks_and_ScrollViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854862B52C090BB5009CFC0A /* Grids__Stacks_and_ScrollViewApp.swift */; };
-		854862B82C090BB5009CFC0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854862B72C090BB5009CFC0A /* ContentView.swift */; };
+		854862B82C090BB5009CFC0A /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854862B72C090BB5009CFC0A /* MainScene.swift */; };
 		854862BA2C090BB7009CFC0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854862B92C090BB7009CFC0A /* Assets.xcassets */; };
 		854862BD2C090BB7009CFC0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854862BC2C090BB7009CFC0A /* Preview Assets.xcassets */; };
 		854862C42C090C7A009CFC0A /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854862C32C090C7A009CFC0A /* CharacterView.swift */; };
@@ -35,7 +35,7 @@
 /* Begin PBXFileReference section */
 		854862B22C090BB5009CFC0A /* Grids, Stacks and ScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grids, Stacks and ScrollView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		854862B52C090BB5009CFC0A /* Grids__Stacks_and_ScrollViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grids__Stacks_and_ScrollViewApp.swift; sourceTree = "<group>"; };
-		854862B72C090BB5009CFC0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		854862B72C090BB5009CFC0A /* MainScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
 		854862B92C090BB7009CFC0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		854862BC2C090BB7009CFC0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		854862C32C090C7A009CFC0A /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		854862B42C090BB5009CFC0A /* Grids, Stacks and ScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				854862B72C090BB5009CFC0A /* ContentView.swift */,
+				854862B72C090BB5009CFC0A /* MainScene.swift */,
 				854862DB2C09227E009CFC0A /* Assets */,
 				854862D82C092173009CFC0A /* Extensions */,
 				854862C82C090CA4009CFC0A /* App */,
@@ -294,7 +294,7 @@
 				854862D52C091C3A009CFC0A /* CharacterDetailsView.swift in Sources */,
 				854862E92C0A17B7009CFC0A /* SearchViewModel.swift in Sources */,
 				854862F22C0A2B17009CFC0A /* CharacterDetailsViewModel.swift in Sources */,
-				854862B82C090BB5009CFC0A /* ContentView.swift in Sources */,
+				854862B82C090BB5009CFC0A /* MainScene.swift in Sources */,
 				854862EC2C0A17C4009CFC0A /* SearchView.swift in Sources */,
 				854862DA2C09217A009CFC0A /* Color.swift in Sources */,
 				854862CF2C090CD4009CFC0A /* PageCountModel.swift in Sources */,

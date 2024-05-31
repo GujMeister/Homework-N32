@@ -8,11 +8,11 @@
 import Foundation
 
 final class SearchCharacterInfo {
-    struct CharacterInfo: Codable {
+    struct CharacterInfo: Decodable {
         let results: [CharacterResult]
     }
     
-    struct CharacterResult: Codable, Identifiable {
+    struct CharacterResult: Decodable, Identifiable {
         var id: Int
         var name: String
         var status: String

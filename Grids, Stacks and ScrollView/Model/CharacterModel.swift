@@ -8,11 +8,11 @@
 import Foundation
 
 final class CharacterInfoModel {
-    struct characterInfo: Codable {
+    struct characterInfo: Decodable {
         let results: [Result]
     }
     
-    struct Result: Codable, Identifiable {
+    struct Result: Decodable, Identifiable {
         let id: Int
         var name: String
         let status: String
@@ -23,7 +23,7 @@ final class CharacterInfoModel {
         let episode: [String]
     }
     
-    struct Location: Codable {
+    struct Location: Decodable {
         let name: String
     }
 }

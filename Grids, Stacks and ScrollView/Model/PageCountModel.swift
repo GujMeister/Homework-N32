@@ -8,11 +8,11 @@
 import Foundation
 
 final class PageModel {
-    struct PageModel: Codable {
+    struct PageModel: Decodable {
         let info: Info?
     }
     
-    struct Info: Codable {
+    struct Info: Decodable {
         let pages: Int?
     }
 }

@@ -12,7 +12,7 @@ final class CharacterInfoModel {
         let results: [Result]
     }
     
-    struct Result: Decodable, Identifiable {
+    struct Result: Decodable, Identifiable, Hashable {
         let id: Int
         var name: String
         let status: String
@@ -21,9 +21,19 @@ final class CharacterInfoModel {
         let origin, location: Location
         let image: String
         let episode: [String]
+        
+        // Conform to Equatable
+        static func == (lhs: Result, rhs: Result) -> Bool {
+            return lhs.id == rhs.id
+        }
+        
+        // Conform to Hashable
+        func hash(into hasher: inout Hasher) {
+            hasher.combine(id)
+        }
     }
     
-    struct Location: Decodable {
+    struct Location: Decodable, Hashable {
         let name: String
     }
 }

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CharacterDetailsView: View {
     // MARK: Properties
-    let character: CharacterInfoModel.Result
+    @State var character: CharacterInfoModel.Result
     @StateObject var viewModel: CharacterDetailsViewModel
     
     // MARK: Init
@@ -21,10 +21,11 @@ struct CharacterDetailsView: View {
     // MARK: - View
     var body: some View {
         VStack {
-            Text(character.name)
-                .font(.custom("GetSchwifty-Regular", size: 32))
-                .padding()
-                .multilineTextAlignment(.center)
+            MenuView(character: character)
+//            Text(character.name)
+//                .font(.custom("GetSchwifty-Regular", size: 32))
+//                .padding()
+//                .multilineTextAlignment(.center)
             
             ScrollView(.vertical) {
                 VStack {
@@ -160,3 +161,42 @@ struct CharacterInfoRow: View {
     }
 }
 
+
+
+// MARK: - Navigation Bar Back Button Visual
+
+struct MenuView : View {
+    
+    @Environment(\.presentationMode) var mode: Binding<PresentationMode>
+    var character: CharacterInfoModel.Result
+    
+    var body : some View {
+        VStack {
+            HStack {
+                Button(action: {
+                    self.mode.wrappedValue.dismiss()
+                }) {
+                    Image(systemName: "arrow.left")
+                        .padding(.horizontal)
+                }
+
+                Spacer()
+
+                Text(character.name)
+                    .font(.custom("GetSchwifty-Regular", size: 32))
+                    .multilineTextAlignment(.center)
+
+                Spacer()
+                
+                // Invisible button
+                Button(action: {}) {
+                    Image(systemName: "arrow.left")
+                        .opacity(0)
+                        .padding(.horizontal)
+                }
+            }
+            .padding()
+            .navigationBarBackButtonHidden(true)
+        }
+    }
+}

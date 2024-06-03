@@ -3,37 +3,44 @@
 //  Grids, Stacks and ScrollView
 //
 //  Created by Luka Gujejiani on 30.05.24.
-//
+
 import SwiftUI
 
 struct CharacterView: View {
     // MARK: Properties
     @StateObject var viewModel = CharacterViewModel()
+    @State private var path = NavigationPath()
     let columns = [GridItem(.adaptive(minimum: 150)), GridItem(.adaptive(minimum: 150))]
     
     // MARK: View
     var body: some View {
-        NavigationStack {
-            HStack {
-                Text("Characters")
-                    .font(.title)
-                    .bold()
-                Spacer()
-            }
-            .padding(.horizontal)
-            
-            ScrollView {
-                LazyVGrid(columns: columns) {
-                    ForEach(viewModel.allCharacters, id: \.name) { character in
-                        NavigationLink(
-                            destination: CharacterDetailsView(character: character)) {
+        NavigationStack(path: $path) {
+            VStack {
+                HStack {
+                    Text("Characters")
+                        .font(.title)
+                        .bold()
+                    Spacer()
+                }
+                .padding(.horizontal)
+                
+                ScrollView {
+                    LazyVGrid(columns: columns) {
+                        ForEach(viewModel.allCharacters, id: \.name) { character in
+                            Button(action: {
+                                path.append(character)
+                            }) {
                                 GridCell(character: character)
                             }
+                        }
                     }
+                    .padding()
                 }
-                .padding()
+                .navigationBarTitleDisplayMode(.inline)
+                .navigationDestination(for: CharacterInfoModel.Result.self) { character in
+                    CharacterDetailsView(character: character)
+                }
             }
-            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }
